@@ -2,17 +2,15 @@
 
 from setuptools import setup, find_packages
 
-with open('README.rst') as f:
-    readme = f.read()
-with open('HISTORY.rst') as f:
-    history = f.read()
+#with open('README.rst') as f:    readme = f.read()
+#with open('HISTORY.rst') as f:    history = f.read()
 
 
 setup(
     name='wptools',
     version='0.4.17',
     description='Wikipedia tools (for Humans)',
-    long_description=readme + '\n\n' + history,
+    #long_description=readme + '\n\n' + history,
     url='https://github.com/siznax/wptools/',
     license='MIT',
     author='Steve @siznax',
